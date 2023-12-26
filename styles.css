@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+.logo {
+  height: 60px;
+  margin-left: 50px;
+  padding: 5px;
+}
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  background-color: white;
+  border-bottom: 1px solid black;
+  box-sizing: content-box;
+}
+.productCategory {
+  display: flex;
+  min-width: 500px;
+  justify-content: space-evenly;
+  border: 0px;
+  box-sizing: border-box;
+}
+.navBar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 26px 0;
+  letter-spacing: 0.5px;
+}
+.navBar a:hover {
+  /* border-bottom: 5px solid red; */
+  color: red;
+}
+.studio {
+  display: flex;
+}
+.navBar a sup {
+  color: red;
+  font-size: 10px;
+}
+.sratchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchInputText {
+  display: flex;
+  min-width: 400px;
+  height: 40px;
+  background-color: rgb(231, 226, 226);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  font-size: 15px;
+  flex-grow: 1;
+}
+.actionBar {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  padding-right: 40px;
+}
+.bag {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.bagItems {
+  font-size: 18px;
+  padding: 3px 20px 3px 20px;
+}
+.posterImage {
+  padding: 40px 0px;
+  width: 100%;
+}
+.brands {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+.brandsHeading {
+  text-transform: uppercase;
+  margin-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: grey;
+}
+.brands > img {
+  width: 250px;
+}
+.categoryImages {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid black;
+}
+.footerLinks {
+  display: flex;
+  flex-flow: column;
+}
+.footerLinks h4 {
+  padding-bottom: 20px;
+}
+.footerLinks a {
+  padding: 5px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: grey
+}
+.footerLinks a:hover{
+    border-bottom: 1px solid grey;
+}
+.credit{
+    text-align: end;
+    padding: 10px;
+    background-color: whitesmoke;
+    color: grey;
+}
